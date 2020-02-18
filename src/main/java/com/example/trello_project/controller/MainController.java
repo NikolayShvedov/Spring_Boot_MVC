@@ -2,7 +2,6 @@ package com.example.trello_project.controller;
 
 import com.example.trello_project.domain.Message;
 import com.example.trello_project.repos.MessageRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,8 +12,7 @@ import java.util.Map;
 @Controller
 public class MainController {
 
-    @Autowired
-    private MessageRepo messageRepo;
+    public MessageRepo messageRepo;
 
     @GetMapping
     public String main(Map<String, Object> model) {
