@@ -1,4 +1,4 @@
-package com.example.trello_project.domain;
+package com.example.trello.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
