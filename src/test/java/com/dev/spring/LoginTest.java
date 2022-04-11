@@ -1,6 +1,6 @@
 package com.dev.spring;
 
-import com.dev.spring.controller.MessageController;
+import com.dev.spring.controller.MainController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ public class LoginTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private MessageController controller;
+    private MainController controller;
 
     @Test
     public void contextLoads() throws Exception {

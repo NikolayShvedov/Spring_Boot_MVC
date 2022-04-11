@@ -9,30 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="add pagination">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/dto/MessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/util/MessageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__Add_message_likes.sql" afterDir="false" />
+    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="интеграционное тестирование с Spring Testing">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/repository/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/repository/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dev/spring/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dev/spring/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dev/spring/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dev/spring/MainControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/repository/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/repository/MessageRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/pager.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/pager.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dev/spring/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dev/spring/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dev/spring/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dev/spring/MainControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +47,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -74,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Workspace/sweater-hql/sweater-hql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -90,6 +74,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Boot_MVC" />
       <extension name="coverage">
@@ -146,10 +143,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ServingWebContentApplication" />
       <item itemvalue="JUnit.LoginTest" />
       <item itemvalue="JUnit.LoginTest.contextLoads" />
       <item itemvalue="JUnit.MainControllerTest" />
-      <item itemvalue="Spring Boot.ServingWebContentApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -178,8 +175,7 @@
       <workItem from="1648183494742" duration="4000" />
       <workItem from="1649069831189" duration="58000" />
       <workItem from="1649586541524" duration="15572000" />
-      <workItem from="1649665518564" duration="17630000" />
-      <workItem from="1649683335324" duration="514000" />
+      <workItem from="1649665518564" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="редактор сообщений">
       <created>1649667405657</created>
@@ -202,14 +198,7 @@
       <option name="project" value="LOCAL" />
       <updated>1649674341271</updated>
     </task>
-    <task id="LOCAL-00004" summary="add pagination">
-      <created>1649676081033</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1649676081033</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,14 +214,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="редактор сообщений" />
     <MESSAGE value="подписки и подписчики" />
     <MESSAGE value="интеграционное тестирование с Spring Testing" />
-    <MESSAGE value="add pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="интеграционное тестирование с Spring Testing" />
   </component>
 </project>
