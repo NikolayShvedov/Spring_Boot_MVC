@@ -2,5 +2,5 @@
 
 <@c.page>
     <h5>Hello, guest</h5>
-    <div>This is my Project</div>
+    <div>Welcome to my project!</div>
 </@c.page>
