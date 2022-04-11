@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Spring_Boot_MVC:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="подписки и подписчики">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dev/spring/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dev/spring/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-before.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-before.sql" afterDir="false" />
+    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="интеграционное тестирование с Spring Testing">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/repository/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/repository/MessageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/repository/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/repository/MessageRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +63,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.10438413" />
     <property name="project.structure.side.proportion" value="0.22332731" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -71,7 +73,7 @@
       <recent name="C:\Workspace\sweater\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainControllerTest">
+  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -173,7 +175,7 @@
       <workItem from="1648183494742" duration="4000" />
       <workItem from="1649069831189" duration="58000" />
       <workItem from="1649586541524" duration="15572000" />
-      <workItem from="1649665518564" duration="8571000" />
+      <workItem from="1649665518564" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="редактор сообщений">
       <created>1649667405657</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649669590719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="интеграционное тестирование с Spring Testing">
+      <created>1649674341271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649674341271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +219,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="редактор сообщений" />
     <MESSAGE value="подписки и подписчики" />
-    <option name="LAST_COMMIT_MESSAGE" value="подписки и подписчики" />
+    <MESSAGE value="интеграционное тестирование с Spring Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="интеграционное тестирование с Spring Testing" />
   </component>
 </project>
