@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="0d88054e-e23c-40e4-ab1f-883ffc72edcd" name="Default Changelist" comment="редактор сообщений">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__Add_subscriptions_table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/spring/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/controller/MessageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dev/spring/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/spring/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +125,16 @@
       <workItem from="1648183494742" duration="4000" />
       <workItem from="1649069831189" duration="58000" />
       <workItem from="1649586541524" duration="15572000" />
-      <workItem from="1649665518564" duration="1834000" />
+      <workItem from="1649665518564" duration="3694000" />
     </task>
+    <task id="LOCAL-00001" summary="редактор сообщений">
+      <created>1649667405657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649667405657</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="редактор сообщений" />
+    <option name="LAST_COMMIT_MESSAGE" value="редактор сообщений" />
   </component>
 </project>
